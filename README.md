@@ -14,3 +14,7 @@ Functionalities:
 - Compress the folder containing XML and PDF into a ZIP file 
 
 - Send the ZIP file to SFTP server
+
+Used programs:
+- Visual Studio 2019
+- Microsoft SQL Server Management Studio 18
