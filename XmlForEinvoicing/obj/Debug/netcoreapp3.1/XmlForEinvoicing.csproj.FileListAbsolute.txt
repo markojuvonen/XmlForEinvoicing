@@ -1,0 +1,12 @@
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\bin\Debug\netcoreapp3.1\XmlForEinvoicing.deps.json
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\bin\Debug\netcoreapp3.1\XmlForEinvoicing.dll
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\obj\Debug\netcoreapp3.1\XmlForEinvoicing.csprojAssemblyReference.cache
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\obj\Debug\netcoreapp3.1\XmlForEinvoicing.AssemblyInfoInputs.cache
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\obj\Debug\netcoreapp3.1\XmlForEinvoicing.AssemblyInfo.cs
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\bin\Debug\netcoreapp3.1\XmlForEinvoicing.runtimeconfig.json
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\bin\Debug\netcoreapp3.1\XmlForEinvoicing.runtimeconfig.dev.json
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\obj\Debug\netcoreapp3.1\XmlForEinvoicing.genruntimeconfig.cache
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\bin\Debug\netcoreapp3.1\XmlForEinvoicing.pdb
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\obj\Debug\netcoreapp3.1\XmlForEinvoicing.csproj.CoreCompileInputs.cache
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\obj\Debug\netcoreapp3.1\XmlForEinvoicing.dll
+C:\Work\XmlForEinvoicing\XmlForEinvoicing\obj\Debug\netcoreapp3.1\XmlForEinvoicing.pdb

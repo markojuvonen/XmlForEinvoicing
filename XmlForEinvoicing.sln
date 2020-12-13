@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlForEinvoicingLib", "XmlForEinvoicing\XmlForEinvoicingLib.csproj", "{A24E0815-4741-47F3-AC03-CBB2BE2FA049}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlForEinvoicingConsole", "XmlForEinvoicingConsole\XmlForEinvoicingConsole.csproj", "{C6121952-FE83-4C24-B70B-710C7F9C4E3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A24E0815-4741-47F3-AC03-CBB2BE2FA049} = {A24E0815-4741-47F3-AC03-CBB2BE2FA049}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8A58551-5619-432D-9560-BD4581C283C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A24E0815-4741-47F3-AC03-CBB2BE2FA049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24E0815-4741-47F3-AC03-CBB2BE2FA049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24E0815-4741-47F3-AC03-CBB2BE2FA049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24E0815-4741-47F3-AC03-CBB2BE2FA049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6121952-FE83-4C24-B70B-710C7F9C4E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6121952-FE83-4C24-B70B-710C7F9C4E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6121952-FE83-4C24-B70B-710C7F9C4E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6121952-FE83-4C24-B70B-710C7F9C4E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E175F29F-0F72-4EED-8681-FC773D363DEB}
+	EndGlobalSection
+EndGlobal
