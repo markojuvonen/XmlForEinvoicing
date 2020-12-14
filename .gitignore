@@ -28,7 +28,7 @@
 
 # Configuration #
 #################
-*.JSON
+AppSettings*
 
 # OS generated files #
 ######################
