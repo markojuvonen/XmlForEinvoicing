@@ -402,7 +402,7 @@ namespace XmlForEinvoicingConsole
                 new XElement("TELEPHONE_NUMBER", x.ReceiverContactTelephoneNumber),
                 new XElement("TELEFAX_NUMBER", x.ReceiverContactTelefaxNumber),
                 new XElement("E-MAIL_ADDRESS", x.ReceiverContactEmailAddress)),
-                new XElement("E-MAIL_ADDRESS", x.ReceiverEmailAddress))), //,new XElement("NET_SERVICE_ID", iv.ReceiverNetServiceId)               
+                new XElement("E-MAIL_ADDRESS", x.ReceiverEmailAddress))),              
                 Rows = new XElement("ROWS"),
                 Summary = new XElement("SUMMARY"))))));
                 for (int i = 0; i < rowList.Count; i++)
