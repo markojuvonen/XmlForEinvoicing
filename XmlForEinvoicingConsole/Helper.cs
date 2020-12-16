@@ -8,7 +8,7 @@ namespace XmlForEinvoicingConsole
 {
     class Helper
     {
-        //Get the last day of month for the master query (INVM_BILLDATE = '<last of month>')
+        //Get the last day of month for the master query
         public static DateTime LastDayOfMonth()
         {
             DateTime d = DateTime.Now;
@@ -208,37 +208,6 @@ namespace XmlForEinvoicingConsole
             rowFreeText = $"Trade price / MWh: {price.ToString("0.00").Trim()}";
             return rowFreeText;
         }
-
-        ////Fetch the PDF file for the invoice and copy it to same folder with the XML
-        //public static void FindPDF(string imageFile)
-        //{            
-        //    string folder = imageFile.Replace(".pdf", "");
-        //    string copyPath = $@"\\adinfra\apps\Providus\PMT_BO\t\{imageFile}";
-        //    string pastePath = $@"C:\Work\{folder}\{imageFile}";
-        //    if (File.Exists(copyPath))
-        //    {
-        //        File.Copy(copyPath, pastePath);
-        //    }
-        //}
-
-        ////Compress the folder containing the XML and PDF into a ZIP 
-        //public static void ZipTheFolder(string imageFile)
-        //{
-        //    string folder = imageFile.Replace(".pdf", "");
-        //    string sourcePath = $@"C:\Work\{folder}";
-        //    string zipPath = $@"C:\Work\{folder}.zip";
-        //    ZipFile.CreateFromDirectory(sourcePath, zipPath);
-        //    File.Move(zipPath, sourcePath + $@"\{folder}.zip");
-        //}
-
-        ////Move the folder to Archive
-        //public static void ArchiveFolder(string imageFile)
-        //{
-        //    string folder = imageFile.Replace(".pdf", "");
-        //    string sourcePath = $@"C:\Work\{folder}";
-        //    string destPath = $@"C:\Work\Archive\{folder}";
-        //    Directory.Move(sourcePath, destPath);
-        //}
 
         //Fetch the PDF file for the invoice and copy it to same folder with the XML
         public static void FindPDF(string imageFile)
